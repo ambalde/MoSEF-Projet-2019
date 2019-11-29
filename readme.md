@@ -6,5 +6,9 @@ cd MoSEF-Projet-2019
 Pour commencer tu peux executer le code suivant (il aura une message avec la demande de repertoire, juste pour tester le code tu peux choisir le nom de fichier koko)
 ./search_fichiers.sh  photo_20?.png bonjour readm?.md
 
+Voici est un example de capture d'écrane 
+
+
+
 
 
