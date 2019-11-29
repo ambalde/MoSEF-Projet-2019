@@ -2,21 +2,18 @@ echo "Bienvenue Monsieur Balde, nous somme le $(date)"
 
 
 
-a = read -p "Quel répertoire vous intéressez aujourd'hui ?"
-cd a
-
 echo "Quel répertoire vous intéressez aujourd'hui ?"
 read var
-echo var
-$cd
-$cd var
+#find $var -maxdepth 1 - iname $1
+find $var/ -name $1
 
 
 
+grep -il $2 $var/$3
 
+#grep -R --includ "readm?.md" "bon?jour" .
 
-
-
-
-echo $dat
-$ dat=$(date +"%d-%B")
+#&& find $var/ -name "readm?.md"
+#find $var/ -name "readm?.md" -exec grep -il "bon?jour" {} \;
+#echo "La liste des fichiers avec le pattern $1 dans votre chemin contenant $2 est :"
+#find ${chemin} -name $1 -exec grep -il $2 {} \;
