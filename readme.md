@@ -7,7 +7,7 @@ Pour commencer tu peux executer le code suivant (il aura une message avec la dem
 ./search_fichiers.sh  photo_20?.png bonjour readm?.md
 
 Voici est un example de capture d'écrane 
-![alt text](https://github.com/ginkulsergei/MoSEF-Projet-2019/Screen1.png)
+![alt text](https://github.com/ginkulsergei/MoSEF-Projet-2019/blob/master/Screen1.png)
 
 
 
